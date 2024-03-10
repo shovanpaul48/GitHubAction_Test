@@ -4,7 +4,7 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
     
-def CheckPrime(n)
+def CheckPrime(n):
 
     if n <= 1:
         return "Prime"
@@ -15,5 +15,6 @@ def CheckPrime(n)
 
 if __name__ == "__main__":
     num = int(input("Enter a number: "))
+    num = -5 
     print("Factorial of", num, "is", factorial(num))
     print(num, "is ", CheckPrime(num))
