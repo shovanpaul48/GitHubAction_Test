@@ -4,7 +4,7 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
     
-def CheckPrime(n):
+def CheckPrime(n)
 
     if n <= 1:
         return "Prime"
