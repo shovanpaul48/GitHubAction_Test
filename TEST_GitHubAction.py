@@ -3,7 +3,8 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n - 1)
-    
+
+a = 5 / 0 
 def CheckPrime(n):
 
     if n <= 1:
